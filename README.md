@@ -27,7 +27,20 @@ This project was developed as part of Java coursework to demonstrate OOP concept
 
 Check installation:
 java -version  
-javac -version  
+javac -version
+
+# How the Program Works
+The program uses a menu-driven approach. The user selects options to perform operations like adding, viewing, searching, and deleting student records. 
+Student data is stored using an ArrayList during runtime and can be saved to a file for future use.
+
+# Error Handling
+The program handles invalid inputs using exception handling. For example, if the user enters a non-numeric value where a number is expected, the program displays an error message instead of crashing.
+
+# Future Improvements
+- Add a graphical user interface (GUI)
+- Use a database like MySQL for better data storage
+- Implement user login system
+- Add update student feature
 
 # How to Run the Project
 
